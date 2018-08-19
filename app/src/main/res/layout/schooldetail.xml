@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="School Ware "
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:layout_marginBottom="20dp"
+        />
+    <TextView
+        android:layout_marginStart="50dp"
+        android:textColor="@color/grey2"
+        android:id="@+id/textViews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SCHOOL"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        />
+    <EditText
+        android:inputType="text"
+        android:layout_marginStart="50dp"
+        android:id="@+id/schoolname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginEnd="50dp"
+        />
+
+    <TextView
+        android:layout_marginStart="50dp"
+        android:textColor="@color/grey2"
+        android:id="@+id/textViewCL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CLASS"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        />
+    <EditText
+        android:layout_marginStart="50dp"
+        android:id="@+id/classname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginEnd="50dp"
+        />
+
+    <TextView
+    android:layout_marginStart="50dp"
+    android:textColor="@color/grey2"
+    android:id="@+id/textviewclassname"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="SECTION"
+    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+    />
+    <EditText
+        android:layout_marginStart="50dp"
+        android:id="@+id/section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginEnd="50dp"
+        />
+
+    <TextView
+        android:layout_marginStart="50dp"
+        android:textColor="@color/grey2"
+        android:id="@+id/rollnotextvew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ROLL NO"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        />
+    <EditText
+        android:layout_marginStart="50dp"
+        android:id="@+id/roolno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginEnd="50dp"
+        />
+
+    <TextView
+        android:layout_marginStart="50dp"
+        android:textColor="@color/grey2"
+        android:id="@+id/textViewID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="email or username"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        />
+    <EditText
+        android:hint="id"
+        android:layout_marginStart="50dp"
+        android:id="@+id/studentid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginEnd="50dp"
+        />
+
+    <Button
+        android:id="@+id/continueschooldetail"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@color/forgot"
+        android:textColor="@color/white"
+        android:text="@string/continu"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="uploaddetail"
+        />
+</LinearLayout>

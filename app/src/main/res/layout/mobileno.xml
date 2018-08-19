@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text=" ENTER YOUR MOBILE NO. "
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp"
+        />
+    <TextView
+        android:layout_marginStart="50dp"
+        android:textColor="@color/grey2"
+        android:id="@+id/textViewCO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COUNTRY"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        />
+    <EditText
+        android:layout_marginStart="50dp"
+        android:id="@+id/editTextCO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginEnd="50dp"
+        />
+    <TextView
+        android:layout_marginStart="50dp"
+        android:textColor="@color/grey2"
+        android:id="@+id/textViewMO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MOBILE NO."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        />
+    <EditText
+        android:layout_marginStart="50dp"
+        android:id="@+id/editTextMO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginEnd="50dp"
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:text="Continue"
+        />
+
+</LinearLayout>

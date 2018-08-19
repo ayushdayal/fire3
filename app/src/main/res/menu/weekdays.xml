@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/monday"
+        android:icon="@mipmap/mforeground"
+        android:title="@string/m" />
+    <item
+        android:id="@+id/teausday"
+        android:icon="@mipmap/mforeground"
+        android:title="@string/m" />
+    <item
+        android:id="@+id/wednesday"
+        android:icon="@mipmap/mforeground"
+        android:title="@string/m" />
+    <item
+        android:id="@+id/friday"
+        android:icon="@mipmap/mforeground"
+        android:title="@string/m" />
+    <item
+        android:id="@+id/saturday"
+        android:icon="@mipmap/mforeground"
+        android:title="@string/m" />
+
+
+
+</menu>

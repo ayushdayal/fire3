@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:paddingTop="10dp"
+    android:background="@color/background"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <ScrollView
+       android:background="@color/grey3"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="vertical"
+       android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:background="@color/grey2"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+            android:textColor="@color/text"
+        android:text=" Sender  :"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="@color/text"
+            android:layout_height="16dp"
+            android:text=" From  :"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="@color/text"
+            android:layout_height="match_parent"
+            android:text=" Notification Text  :"/>
+    </LinearLayout>
+       <LinearLayout
+           android:layout_marginBottom="10dp"
+           android:background="@color/grey2"
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="50dp">
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="16dp"
+               android:textColor="@color/text"
+               android:text=" Sender  :"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:textColor="@color/text"
+               android:layout_height="16dp"
+               android:text=" From  :"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:textColor="@color/text"
+               android:layout_height="match_parent"
+               android:text=" Notification Text  :"/>
+       </LinearLayout>
+       <LinearLayout
+           android:layout_marginBottom="10dp"
+           android:background="@color/grey2"
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="50dp">
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="16dp"
+               android:textColor="@color/text"
+               android:text=" Sender  :"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:textColor="@color/text"
+               android:layout_height="16dp"
+               android:text=" From  :"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:textColor="@color/text"
+               android:layout_height="match_parent"
+               android:text=" Notification Text  :"/>
+       </LinearLayout>
+       <LinearLayout
+           android:layout_marginBottom="10dp"
+           android:background="@color/grey2"
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="50dp">
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="16dp"
+               android:textColor="@color/text"
+               android:text=" Sender  :"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:textColor="@color/text"
+               android:layout_height="16dp"
+               android:text=" From  :"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:textColor="@color/text"
+               android:layout_height="match_parent"
+               android:text=" Notification Text  :"/>
+       </LinearLayout>
+
+
+   </LinearLayout>
+   </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <ScrollView
+       android:background="@color/green"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+   <LinearLayout
+       android:orientation="vertical"
+       android:background="@color/background"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=" Request Type:"
+            android:gravity="center"
+            android:background="@color/background"
+            android:textColor="@color/text"
+            android:textSize="25dp"/>
+        <Spinner
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:fadingEdgeLength="10dp"
+            android:fadingEdge="vertical"
+            android:id="@+id/feeddrop"
+            android:layout_width="match_parent"
+            android:layout_gravity="center_vertical"
+            android:spinnerMode="dropdown"
+            android:layout_height="25dp">
+        </Spinner>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text=" Suggestion"
+        android:gravity="center"
+        android:background="@color/background"
+        android:textColor="@color/text"
+        android:textSize="25dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+        <EditText
+            android:hint="Your Suggestio Here"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/grey"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:paddingEnd="5dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text"
+            android:text="send"/>
+
+    </LinearLayout>
+   </LinearLayout>
+   </ScrollView>
+
+</LinearLayout>

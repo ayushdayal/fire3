@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:gravity="center"
+        android:background="@color/forgot"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="callbhia"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Call: 8750295903"
+        android:textColor="@color/grey"
+        android:textSize="30dp"/>
+
+</LinearLayout>
